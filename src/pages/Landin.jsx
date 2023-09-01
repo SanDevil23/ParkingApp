@@ -10,9 +10,17 @@ export default function Landing() {
         <button id="btn-md" onClick={()=>navigator('/login')}>SignIn</button>
         <button id="btn-md">SignUp</button>
       </div>
+
       <div className="content">
-        <img src="https://www.creativeboom.com/uploads/articles/29/293b41149838f40357161da13536bbdee05d4cc3.gif"></img>
-        <p id="appNm">ParkMe</p>
+        <div className="logo">
+          <img src="https://cdn.dribbble.com/users/1287580/screenshots/5410442/dribbble_2.gif"></img>
+        </div>
+
+        <div className="title">
+          <p id="appNm">ParkMe</p>
+          <p>Only solution for parking in India</p>
+          <button className="trial"> Get Free Trial</button>
+        </div>
       </div>
     </div>
   );
