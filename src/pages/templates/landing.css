@@ -1,0 +1,55 @@
+.body {
+  padding-left: 1px;
+  overflow: hidden;
+  height: 100%;
+
+}
+
+.loginBar {
+  margin-top: 0;
+  padding: 15px;
+  width: 100%;
+  border:solid 2px  black;
+}
+
+button {
+  margin-right: 25px;
+  width: 3cm;
+  padding: 15px;
+  border-radius: 30px;
+  font-weight: 600;
+  color: white;
+  background-color: black;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20em;
+  background: rgb(33,33,33);
+  background: linear-gradient(187deg, rgba(33,33,33,1) 24%, rgba(102,169,255,1) 72%);
+  height: 100vh;
+  overflow-y: hidden;
+
+}
+img {
+  width: 12cm;
+  height: 10cm;
+  border-radius: 45px;
+  position: relative;
+  top: 3cm;
+}
+#appNm {
+  font-size: 72px;
+  position: inherit;
+  left: 15cm;
+  line-height: 6em;
+  padding-left: 5%;
+  font-weight: 800;
+  color:white;
+}
